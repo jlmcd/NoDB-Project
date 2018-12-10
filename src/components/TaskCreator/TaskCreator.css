@@ -6,6 +6,7 @@ input, textarea {
     resize: none;
     overflow: auto;
     height: 40px;
+    color: #333;
     font-size: 1.2em;
     text-align: center;
     border: 0;
@@ -49,8 +50,8 @@ button {
     background-color: rgba(119, 152, 171, 0);
     font-size: 1em;
     border-radius: 30px;
-    border: 1px solid black;
-    color: #000;
+    border: 1px solid #333;
+    color: #333;
     padding: 10px;
     height: 40px;
     min-width: 80px;
@@ -60,7 +61,7 @@ button {
          -o-transition: all 0.1s ease-in-out;
 }
 button:hover {
-    border: 1px solid black;
+    border: 1px solid #333;
     color: rgba(0, 0, 0, 0.712);
     background-color: rgba(81, 203, 238, 0.548);
 }

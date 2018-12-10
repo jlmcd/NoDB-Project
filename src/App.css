@@ -50,3 +50,14 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+
+/* Polishing Stuff */
+::selection {
+  background-color: #FFDD33;
+  color: #222222;
+}
+::-moz-selection {
+  background-color: #FFDD33;
+  color: #222222;
+}

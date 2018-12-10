@@ -10,6 +10,7 @@
 #practice-item-displayed > .properties {
     display: flex;
     justify-content: space-between;
+    color: #333;
 }
 #practice-item-displayed > .properties > div {
     margin: 0 20px 0 0;
@@ -42,8 +43,8 @@
 }
 #practice-item-displayed .edit-button:hover {
     background-color: rgba(81, 203, 238, 0.5);
-    color: black;
-    border: 1px solid black;
+    color: #333;
+    border: 1px solid #333;
 }
 #practice-item-displayed .delete-button {
     background-color: rgba(202, 25, 25, 0.37);
@@ -52,8 +53,8 @@
 }
 #practice-item-displayed .delete-button:hover {
     background-color: rgba(202, 25, 25, 0.5);
-    color: black;
-    border: 1px solid black;
+    color: #333;
+    border: 1px solid #333;
 }
 
 
@@ -77,8 +78,8 @@
 }
 #practice-item-edit > .save-button:hover {
     background-color: rgba(23, 133, 23, 0.5);
-    color: black;
-    border: 1px solid black;
+    color: #333;
+    border: 1px solid #333;
 }
 .piece-edit, .composer-edit {
     text-align: left;
