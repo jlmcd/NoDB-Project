@@ -46,7 +46,7 @@ module.exports = {
     updatePracticeItem: (req, res) => {
         let itemIndex = practiceChart.findIndex(item => item.id === +req.params.id)
         practiceChart[itemIndex] = {
-            id: req.params.id,
+            id: +req.params.id,
             composer: req.body.composer,
             piece: req.body.piece,
             tempo: req.body.tempo,
@@ -56,7 +56,6 @@ module.exports = {
     },
     deleteItem: (req, res) => {
         let itemIndex = practiceChart.findIndex(item => item.id === +req.params.id)
-        console.log(itemIndex)
         practiceChart.splice(itemIndex, 1)
         res.status(200).send(practiceChart)
     },

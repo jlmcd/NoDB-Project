@@ -1,0 +1,69 @@
+#task-creator {
+    display: flex;
+    justify-content: space-between;
+}
+input, textarea {
+    resize: none;
+    overflow: auto;
+    height: 40px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid black;
+    margin: 5px 10px;
+    padding: 8px;
+    -webkit-transition: all 0.30s ease-in-out;
+       -moz-transition: all 0.30s ease-in-out;
+        -ms-transition: all 0.30s ease-in-out;
+         -o-transition: all 0.30s ease-in-out;
+}
+input:out-of-range {
+    box-shadow: 0 0 5px rgb(238, 81, 81);
+    border-bottom: 1px solid rgba(238, 81, 81);
+    border-radius: 8px;
+}
+input:focus, textarea:focus {
+    outline: none !important;
+    border: 0;
+    border-bottom: 1px solid rgba(81, 203, 238, 1);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#piece-field, #composer-field {
+    width: 15%;
+    min-width: 200px;
+}
+#tempo-field {
+    width: 5%;
+    min-width: 70px;
+}
+#notes-field {
+    width: 50%;
+}
+button {
+    background-color: rgba(119, 152, 171, 0);
+    font-size: 1em;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: #000;
+    padding: 10px;
+    height: 40px;
+    min-width: 80px;
+    -webkit-transition: all 0.1s ease-in-out;
+       -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+         -o-transition: all 0.1s ease-in-out;
+}
+button:hover {
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(81, 203, 238, 0.548);
+}
+button:focus {
+    outline: none !important;
+}

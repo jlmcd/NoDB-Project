@@ -1,0 +1,6 @@
+#quote > p {
+    max-width: 900px;
+    font-family: cursive;
+    margin: 15px;
+    text-align: left;
+}

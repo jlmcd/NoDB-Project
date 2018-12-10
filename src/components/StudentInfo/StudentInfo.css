@@ -1,0 +1,8 @@
+#quote-and-student {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#student-info {
+    width: 541px;
+}

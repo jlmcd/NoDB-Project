@@ -1,0 +1,96 @@
+/* Edit Toggle OFF */
+#practice-item-displayed {
+    background-color: #E5E5E5;
+    margin: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#practice-item-displayed > .properties {
+    display: flex;
+    justify-content: space-between;
+}
+#practice-item-displayed > .properties > div {
+    margin: 0 20px 0 0;
+    font-size: 1.2em;
+}
+.piece-display, .composer-display {
+    text-align: left;
+    width: 15%;
+    min-width: 200px;
+}
+.tempo-display {
+    text-align: left;
+    width: 5%;
+    min-width: 70px;
+}
+#practice-item-displayed > .buttons {
+    display: flex;
+    flex-direction: column;
+}
+#practice-item-displayed > .buttons > button {
+    height: 20px;
+    min-width: 20px;
+    font-size: .7em;
+    padding: 3px;
+}
+#practice-item-displayed .edit-button {
+    background-color: rgba(81, 203, 238, 0.294);
+    color: rgba(0, 0, 0, 0.712);
+    border: 1px solid gray;
+}
+#practice-item-displayed .edit-button:hover {
+    background-color: rgba(81, 203, 238, 0.5);
+    color: black;
+    border: 1px solid black;
+}
+#practice-item-displayed .delete-button {
+    background-color: rgba(202, 25, 25, 0.37);
+    color: rgba(0, 0, 0, 0.712);
+    border: 1px solid gray;
+}
+#practice-item-displayed .delete-button:hover {
+    background-color: rgba(202, 25, 25, 0.5);
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* Edit Toggle ON */
+#practice-item-edit {
+    background-color: #E5E5E5;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+#practice-item-edit > input {
+    background-color: #E5E5E5;
+    text-align: left;
+}
+#practice-item-edit > .save-button {
+    background-color: rgba(23, 133, 23, 0.294);
+    color: rgba(0, 0, 0, 0.712);
+    border: 1px solid gray;
+}
+#practice-item-edit > .save-button:hover {
+    background-color: rgba(23, 133, 23, 0.5);
+    color: black;
+    border: 1px solid black;
+}
+.piece-edit, .composer-edit {
+    text-align: left;
+    width: 15%;
+    min-width: 200px;
+}
+.tempo-edit {
+    text-align: left;
+    width: 5%;
+    min-width: 70px;
+}
+.notes-edit {
+    text-align: left;
+    width: 50%;
+}
